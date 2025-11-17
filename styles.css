@@ -1,0 +1,158 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{\
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;\
+  margin: 0;\
+  color: #222;\
+  background: #fafafa;\
+\}\
+\
+a \{\
+  color: #0066cc;\
+  text-decoration: none;\
+\}\
+\
+a:hover \{\
+  text-decoration: underline;\
+\}\
+\
+.container \{\
+  width: min(1100px, 100% - 2rem);\
+  margin: 0 auto;\
+\}\
+\
+/* header & footer */\
+\
+.site-header,\
+.site-footer \{\
+  background: #111827;\
+  color: #f9fafb;\
+\}\
+\
+.header-inner,\
+.footer-inner \{\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center;\
+  padding: 1rem 0;\
+  gap: 1rem;\
+\}\
+\
+.logo \{\
+  font-weight: 700;\
+  font-size: 1.1rem;\
+  color: #f9fafb;\
+\}\
+\
+.nav a \{\
+  margin-left: 1rem;\
+  color: #e5e7eb;\
+  font-size: 0.95rem;\
+\}\
+\
+.nav a:hover \{\
+  color: #ffffff;\
+\}\
+\
+.site-footer a \{\
+  color: #e5e7eb;\
+\}\
+\
+/* hero */\
+\
+.hero \{\
+  padding: 3rem 0 2rem;\
+\}\
+\
+.hero-text h1 \{\
+  font-size: 2rem;\
+  margin-bottom: 0.5rem;\
+\}\
+\
+/* grid & cards */\
+\
+.grid \{\
+  display: grid;\
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));\
+  gap: 1.5rem;\
+  margin: 1.5rem 0;\
+\}\
+\
+.category-card,\
+.product-card \{\
+  background: white;\
+  border-radius: 0.5rem;\
+  padding: 1rem;\
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);\
+\}\
+\
+.product-card__image img \{\
+  max-width: 100%;\
+  display: block;\
+  border-radius: 0.5rem;\
+\}\
+\
+.product-card__meta \{\
+  font-size: 0.9rem;\
+  color: #4b5563;\
+\}\
+\
+/* product detail */\
+\
+.product-detail__layout \{\
+  display: grid;\
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);\
+  gap: 2rem;\
+  margin-top: 1.5rem;\
+\}\
+\
+.product-detail__image img \{\
+  max-width: 100%;\
+  border-radius: 0.5rem;\
+\}\
+\
+.product-detail__description \{\
+  margin-top: 1.5rem;\
+  line-height: 1.6;\
+\}\
+\
+/* buttons */\
+\
+.btn \{\
+  display: inline-block;\
+  padding: 0.55rem 1.1rem;\
+  border-radius: 999px;\
+  background: #111827;\
+  color: #f9fafb;\
+  font-size: 0.95rem;\
+\}\
+\
+.btn:hover \{\
+  background: #4b5563;\
+  text-decoration: none;\
+\}\
+\
+.btn-small \{\
+  font-size: 0.85rem;\
+  padding: 0.45rem 0.9rem;\
+\}\
+\
+/* responsive */\
+\
+@media (max-width: 768px) \{\
+  .header-inner,\
+  .footer-inner \{\
+    flex-direction: column;\
+    align-items: flex-start;\
+  \}\
+\
+  .product-detail__layout \{\
+    grid-template-columns: 1fr;\
+  \}\
+\}\
+}

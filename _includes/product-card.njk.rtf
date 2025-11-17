@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <div class="product-card">\
+  \{% if product.data.image %\}\
+    <div class="product-card__image">\
+      <img src="\{\{ product.data.image \}\}" alt="\{\{ product.data.title \}\}">\
+    </div>\
+  \{% endif %\}\
+  <div class="product-card__body">\
+    <h3>\
+      <a href="\{\{ product.url \}\}">\{\{ product.data.title \}\}</a>\
+    </h3>\
+    <p class="product-card__meta">\
+      \uc0\u21697 \u29260  Brand: \{\{ product.data.brand or "\'96" \}\}<br>\
+      \uc0\u35268 \u26684  Spec: \{\{ product.data.spec or "\'96" \}\}<br>\
+      MOQ: \{\{ product.data.moq or "On request" \}\}\
+    </p>\
+    <a class="btn btn-small" href="/contact/?sku=\{\{ product.data.slug \}\}">\
+      \uc0\u33719 \u21462 \u25209 \u21457 \u25253 \u20215  Get quote\
+    </a>\
+  </div>\
+</div>\
+}
