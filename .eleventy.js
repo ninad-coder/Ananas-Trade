@@ -7,7 +7,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: ".",         // 输入目录（你的网站根目录）
+      input: "https://github.com/ninad-coder/Ananas-Trade/tree/main",         // 输入目录（你的网站根目录）
       includes: "_includes",
       data: "_data",
       output: "_site"
